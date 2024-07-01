@@ -1,0 +1,819 @@
+@media only screen and (max-width: 320px) {
+ .header{ flex-wrap: wrap;}
+ 
+ .image-container{
+  position: relative;
+  display: inline-block;
+}
+
+ .advert-text{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  color: black;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px 10px 20px;
+  border: none;
+  display: inline-block;
+}
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 0;
+}
+
+.promo-banner{
+   background-color: rgb(248, 246, 136);
+
+}
+
+.promo-banner-content{
+  padding: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+}
+
+.promo-banner-text{
+  flex-grow: 1;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.two-days-left{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.material-icons{
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  border: none;
+  background: none;
+  cursor: pointer; 
+  
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+.header1{
+  background-color: white;
+}
+
+.header{
+  background-color: white;
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header a{
+  cursor: pointer;
+}
+
+.header .udemy-business > a:hover,
+.header .categories > a:hover,
+.header .teach-on-udemy > a:hover
+{
+color: rgb(108, 6, 224);
+}
+
+.header > span[class="categories"],
+.header > span[class="udemy-business"],
+.header > span[class="teach-on-udemy"]
+{
+  margin-right: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.header .udemy {
+  font-size: 30px;
+  font-family: Corbel;
+  font-weight: 400px;
+  margin-right: 8px;
+}
+
+.search {
+  border: solid;
+  border-radius: 40px;
+  border-width: 1px;
+  border-color: black;
+  background-color: whitesmoke;
+  padding-left: 2%;
+  width: 42%;
+  margin-right: 20px;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  font-size: 15px;
+  padding-right: 1%;
+}
+
+.header .cart,
+.header .continental {
+  font-size: 20px;
+}
+
+.header button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  font-family: Segoe UI Black;
+  cursor:pointer;
+}
+
+.header .log-in button{
+  margin-left: 15px;
+}
+
+
+.header .log-in button,
+.header .continental button {
+  background-color: white;
+  color: black;
+  border-width: 1px;
+  transition: background-color 0.15s;
+}
+
+.header .log-in button:hover,
+.header .continental button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+
+.header .sign-up button {
+  background-color: rgb(61, 59, 59);
+  color: white;
+  border-width: 1px;
+  border: none;
+  font-family: Segoe UI Black;
+  transition: background-color 0.15s;
+
+}
+.header .sign-up button:hover{
+  background-color: black;
+  color: white;
+}
+
+.header .continental button {
+  padding: 1px 4px 7px 4px;
+  font-size: 20px;
+}
+
+.advert3{
+  margin: 0;
+  
+}
+
+.image-container{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+ .advert-text{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  color: black;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px 10px 20px;
+  border: none;
+  display: inline-block;
+}
+
+ #advert-text1{
+  background-color: white;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  line-height: 40px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  
+}
+
+.advert-text #advert-text2{
+  background-color: white;
+  font-size: 15px;
+  line-height: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+}
+
+.body14{
+  margin: 20px;
+}
+
+.body1 h1{
+  font-size: 34px;
+  
+}
+
+#choose{
+  font-family: "Calibri light";
+  font-size: 3dvh;
+}
+
+.body1 ul{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  padding-left: 0;
+  font-size: small;
+}
+
+.body1 ul button{
+  text-decoration: none;
+  color: grey;
+  display: inline-block;
+  border: none;
+  background-color: white;
+  font-weight: 1000;
+  font-size: small;
+}
+
+.body1 ul button:hover{
+  color: black;
+}
+
+.expand{
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid;
+  border-width: 0.5px;
+  border-color: rgb(228, 227, 227);
+  padding: 12px 24px;
+}
+
+#take{
+  max-width: 70%;
+  font-family: "Calibri light";
+  font-size:large;
+}
+
+#explorepython{
+  padding: 10px;
+  background-color: white;
+  border-width: 1px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body1 .several-lessons{
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 50%;
+  margin-top: 40px;
+}
+
+
+
+#python-lessons{
+  margin-right: 30px;
+  width: 250px;
+
+}
+
+#python-lessons img{
+  height: 50px;
+  
+}
+
+.div-img{
+  border: solid;
+  background-color: black;
+  border-color: grey;
+  height: 120px;
+}
+
+h4{
+  margin-bottom: 7px;
+ }
+
+ .teacher{
+  color: rgb(78, 78, 78);
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: small;
+ }
+
+ .rating {
+  color: rgb(231, 159, 4);
+  margin-top: 0;
+  margin-bottom: 7px;
+ }
+
+ .number-b4-stars{
+  font-weight: 700;
+  color: rgb(196, 88, 0);
+
+ }
+
+ .price{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+
+.bestseller{
+  cursor: pointer;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  background-color: rgb(236, 236, 158);
+  border: none;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+ .number-in-bracket{
+  color: rgb(78, 78, 78);
+  font-size: small;
+  
+ }
+
+  .cancelled-number{
+  text-decoration: line-through;
+  color:rgb(116, 115, 115);
+  }
+
+  .discount-price{
+    font-weight: 800;
+  }
+
+  .body25{
+    margin-top: 10px;
+  }
+  
+  .body2 h2{
+    font-size: 4dvb;
+  }
+  
+  
+  .body2{
+   padding: 20px;
+   background-color: whitesmoke;
+  }
+  
+  #learners-achieving{
+    margin-right: 10px;
+    padding: 20px;
+    display:inline-block;
+    width: 300px;
+    height: fit-content;
+    vertical-align: top;
+    background-color: white;
+    border: solid;
+    border-width: 0.5px;
+    border-color: rgb(207, 207, 207);
+    
+  }
+  
+  .body2 .doublequote{
+    font-size: 8dvb;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  
+  .body2 #learners-achieving .experience{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .initials{
+    font-weight: bold;
+    margin: 2px;
+    padding: 8px;
+    border: none;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .student-name{
+    display:inline-block;
+    font-weight: bold;
+  }
+  
+  .below-hr{
+    color: rgb(45, 0, 207);
+    font-weight: bolder;
+    margin:  5% 0;
+    display: flex;
+    align-items:  center;
+  }
+  
+  .play-button{
+    margin-right: 10px; 
+    color: white;
+    background-color: rgb(45, 0, 207);
+    width: 30px;
+    padding: 3px 0px 3px 8px;
+    border-radius: 15px;
+  }
+  
+  .Students-are-viewing6{
+    margin: 20px;
+  }
+  
+  
+  .several-lessons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-self: baseline;
+  }
+  
+  
+  
+  #python-lessons{
+    margin-right: 30px;
+    width: 250px;
+  
+  }
+  
+  #python-lessons img{
+    height: 50px;
+    
+  }
+  
+  .div-img{
+    border: solid;
+    background-color: black;
+    border-color: grey;
+    height: 120px;
+  }
+  
+  #python-lessons h4{
+    margin-bottom: 7px;
+   }
+  
+   .teacher{
+    color: rgb(78, 78, 78);
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: small;
+   }
+  
+   .rating {
+    color: rgb(231, 159, 4);
+    margin-top: 0;
+    margin-bottom: 7px;
+   }
+  
+   .number-b4-stars{
+    font-weight: 700;
+    color: rgb(196, 88, 0);
+  
+   }
+  
+   .price{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
+  }
+  
+  
+  .bestseller{
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    background-color: rgb(236, 236, 158);
+    border: none;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+   .number-in-bracket{
+    color: rgb(78, 78, 78);
+    font-size: small;
+    
+   }
+  
+    .price .cancelled-number{
+    text-decoration: line-through;
+    color:rgba(150, 149, 149, 0.986);
+    }
+  
+    .discount-price{
+      font-weight: 800;
+    }
+  
+  
+      #design{
+        display: inline-block;
+        width: 295px;
+        margin: 0 25px 20px 0;
+      }
+  
+    .img-design{
+    border: none;
+    background-color:whitesmoke;
+    border-color: grey;
+    height: 300px;
+    object-fit: contain;
+  
+    }
+  
+    #design p{
+      font-weight: bolder;
+    }
+  
+    
+    #featured-topics7{
+      padding: 20px;
+    }
+    
+    #featured-topics7 .featured-topics h3{
+      font-weight:bolder;
+      margin-bottom: 20px;
+      font-size: larger;
+    }
+    
+    #featured-topics7 .featured-topics{
+      display: flexbox;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    #featured-topics7 .featured-topics ul{
+      list-style: none;
+    }
+    
+    #featured-topics7 #topic{
+      display: inline-block;
+      margin-right: 25dvb ;
+    }
+    
+    #featured-topics7 .sub-topics{
+      margin-bottom: 10px;
+      color: blueviolet;
+      text-decoration: underline;
+      font-weight: bolder;
+      font-size: large;
+    }
+    
+    #featured-topics7 .no-of-students{
+      margin-bottom: 25px;
+      color:rgb(116, 115, 115);
+    }
+    
+    #featured-topics7 #topics-and-studentsno{
+      margin:0;
+      padding: 0;
+    }
+    
+
+    #Trustedbyover8 .logos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 30px;
+    }
+    
+    #Trustedbyover8{
+      background-color: beige;
+    }
+    
+    #Trustedbyover8{
+      background-color: white;
+      padding: 3dvi;
+    }
+    
+    #Trustedbyover8 .trustedby, .leading{
+      text-align: center;
+      height: 11px;
+    }
+    
+    #Trustedbyover8 .trustedby{
+      font-size: 2dvi;
+    }
+    
+    #Trustedbyover8 .leading{
+      margin-bottom: 10px;
+    }
+
+    #thankstoudemy9{
+      background-color: whitesmoke;
+      padding: 2dvi 0 3dvi 0;
+    }
+    #thankstoudemy9 .weight {
+      font-weight: 300px;
+    }
+    
+    
+    #thankstoudemy9 #thankstoudemy {
+      margin: 42px 24px 9px 247px;
+      height: 300px;
+      width: 800px;
+      background-color: white;
+      border: solid;
+      border-width: 1px;
+      border-color: rgb(209, 208, 208);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 4dvi 0 2dvi  ;
+    }
+    
+    #thankstoudemy9 .thanks-left {
+      width: 350px;
+    }
+    
+    #thankstoudemy9 .principalspicture {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      border: thin;
+    }
+    
+    #thankstoudemy9 .view, .read {
+      text-align: center;
+      color: royalblue;
+      font-weight: bolder;
+    }
+    
+    #thankstoudemy9 .read {
+      text-align: left;
+      text-decoration: underline;
+    }
+    
+    
+    .upskill10{
+      margin: 30px 30px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 60px;
+    }
+    
+    .upskill10 .upskill{
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 900px;
+      margin-bottom: 30px;
+    }
+    
+    .upskill10 .become{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      width: 900px;
+      margin-top: 30px;
+    }
+    
+    .upskill10 .upskill-left{
+      width: 400px;
+      }
+      
+      .upskill10 .become-right{
+    width: 400px;
+    }
+    .upskill10 .upskill-right1{
+      max-width: 300px;
+    }
+    
+    .upskill10 .get-udemy-business, .start-teaching-today{
+      padding: 10px;
+      color: white;
+      background-color: rgb(49, 49, 49);
+      transition-duration: background-color 0.15s;
+    }
+    
+    .upskill10 .get-udemy-business:hover{
+      cursor: pointer;
+      background-color: black;
+    }
+    
+    .upskill10 .start-teaching-today:hover{
+      cursor: cell;
+      background-color: black;
+    }
+    
+    .upskill10 .learn-more-of-udemy-business{
+      padding: 10px;
+      color:black ;
+      background-color:white ;
+      transition-duration: 0.3s;
+    
+    }
+    
+    .upskill10 .learn-more-of-udemy-business:hover{
+      cursor: grab;
+      background-color: azure;
+    }
+    
+    
+    .footer11{
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      padding: 10px 10px;
+      color: white;
+      padding-right:  50px;
+    
+      
+    }
+    
+    .beginning-footer-items{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 0;
+    }
+    
+    .end-footer-items{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-left: 40px;
+    }
+    
+    .footer-items{
+      flex-grow: 0.3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+    .footer-items ul li{
+      list-style: none;
+      line-height: 30px;
+    }
+    
+    .englishbutton{
+      background-color: rgb(15, 15, 15);
+      color: rgb(243, 243, 243);
+      border: solid;
+      border-width: 1px;
+      border-color: white;
+      padding: 10px 45px 10px 15px;
+      font-size: 15px;
+      
+    }
